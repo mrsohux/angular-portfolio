@@ -1,0 +1,180 @@
+<div class="background-container">
+    <div class="nav">
+        <div class="container navbar">
+            <a class="nav-heading">SOHEL SHAIKH</a>
+            <div class="nav-toggle" (click)="toggleNav()">
+                <i class="fa-solid fa-bars fa-2xl" style="color: #ffffff"></i>
+            </div>
+            <ul class="nav-links" [class.open]="isNavOpen">
+                <li (click)="closeNav()" class="text-end">
+                    <i class="fa-solid fa-xmark fa-2xl" style="color: #ffffff"></i>
+                </li>
+                <li class=""><a href="#home" (click)="closeNav()">ABOUT</a></li>
+                <li class="">
+                    <a href="#experience" (click)="closeNav()">EXPERIENCE</a>
+                </li>
+                <li class=""><a href="#skills" (click)="closeNav()">SKILLS</a></li>
+                <li class="">
+                    <a href="#education" (click)="closeNav()">EDUCATION</a>
+                </li>
+                <li class=""><a href="#project" (click)="closeNav()">PROJECTS</a></li>
+                <li class=""><a href="#contact" (click)="closeNav()">CONTACT US</a></li>
+            </ul>
+            <ul class="horizontal-nav">
+                <li class=""><a href="#home" class="">ABOUT</a></li>
+                <li class=""><a href="#experience" class="">EXPERIENCE</a></li>
+                <li class=""><a href="#skills" class="">SKILLS</a></li>
+                <li class=""><a href="#education" class="">EDUCATION</a></li>
+                <li class=""><a href="#project" class="">PROJECTS</a></li>
+                <li class=""><a href="#contact" class="">CONTACT US</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6 order-2 order-lg-1">
+                    <div class="hero-section my-lg-5">
+                        <h1 class="hero-title">
+                            Hello, <span class="gradient-text">I’m Sohel Shaikh</span><br>
+                            <span class="gradient-text">Professional Software Developer</span>
+                          </h1>
+                        <div class="social-icon py-5">
+                            <a href="https://github.com/mrsohux" class="mx-2"><img src="assets/images/icon/pink-git.svg"
+                                    alt="" /></a>
+                            <a href="https://www.linkedin.com/in/mrsohux/" class="mx-2"><img
+                                    src="assets/images/icon/pink-linkdin.svg" alt="" /></a>
+                            <a href="https://www.facebook.com/share/1SJCh274E2/" class="mx-2"><img
+                                    src="assets/images/icon/pink-fb.svg" alt="" /></a>
+                            <a href="https://www.instagram.com/mr_sohux?igsh=MWJkeDBoODYycGF2Mg==" class="mx-2"><img
+                                    src="assets/images/icon/instapink.svg" alt="" /></a>
+                        </div>
+                        <div class="hero-button py-3">
+                            <a href="#contact" class="mx-2">
+                                <button class="btn py-3">
+                                    CONTACT US
+                                    <img src="assets/images/icon/user.svg" alt="" class="mb-1" />
+                                </button>
+                            </a>
+                            <!--<a href="" class="mx-2">
+                                <button class="btn2 py-3" (click)="downloadResume()">
+                                    GET RESUME
+                                    <img src="assets/images/icon/download.svg" alt="" />
+                                </button>
+                            </a>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 order-1 order-lg-2">
+                    <app-hero-card [coderName]="'Sohel Shaikh'" [skills]="[
+              'C#',
+              'C++',
+              'Python',
+              'WPF/WCF',
+              'Web Services',
+              'SOA',
+              'Web API/REST API',
+              '.NET Core',
+              'LINQ',
+              'SignalR',
+              'Entity Framework',
+              '.NET Framework 4.0/4.5',
+              'Oracle PL/SQL',
+              'MVC',
+              'OOP Concepts',
+              'Design Patterns',
+              'Angular',
+              'TypeScript',
+              'JavaScript',
+              'HTML',
+              'CSS',
+              'EmailJS',
+              'Bootstrap',
+              'ASP.NET MVC',
+              'MS-SQL',
+              'PostgreSQL',
+              'Git/Github',
+              'MVP',
+              'FHIR',
+              'HL7',
+              'IIS Architecture',
+              'Agile/Scrum Methodology',
+              'Asynchronous Programming',
+              'Postman',
+              'Bruno'
+            ]">
+                    </app-hero-card>
+                </div>
+            </div>
+            <div class="about py-3">
+                <div class="row text-center py-2">
+                    <div class="col-sm-12">
+                        <div class="blur"></div>
+                        <span class="pills">About US</span>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 fs-5 order-2 order-md-1">
+                        <h3 class="py-3 m-0" style="color: #16f2b3">WHO I AM?</h3>
+                        <p>
+                            I am a
+                            <span class="highlight">Dynamic and Detail-Oriented Software Developer</span>
+                            with <span class="highlight">{{ experienceYears }} years of experience</span> in
+                            designing, developing, and maintaining software applications in
+                            <span class="highlight">product-based environments</span>.
+                            Proficient in <span class="highlight">C#</span>,
+                            <span class="highlight">.NET Core</span>,
+                            <span class="highlight">basic Angular</span>, 
+                            <span class="highlight">Oracle</span> and
+                            <span class="highlight">PostgreSQL</span>, 
+                            with a strong command of modern development practices and frameworks.
+                        </p>
+                        <p>
+                            I specialize in building
+                            <span class="highlight">efficient backend systems</span>,
+                            developing <span class="highlight">RESTful APIs</span>, and
+                            delivering
+                            <span class="highlight">scalable, user-friendly applications</span>. My background
+                            includes
+                            <span class="highlight">troubleshooting complex issues</span>,
+                            optimizing performance, and working closely with
+                            <span class="highlight">cross-functional teams</span> to ensure
+                            high-quality software delivery.
+                        </p>
+                        <p>
+                            Passionate about
+                            <span class="highlight">continuous learning</span> and
+                            <span class="highlight">emerging technologies</span>, I aim to
+                            create impactful, innovative solutions that
+                            <span class="highlight">solve real-world problems</span> and
+                            elevate user experiences.
+                        </p>
+                        <p>
+                            I am eager to contribute my skills and expertise to a
+                            forward-thinking organization that values
+                            <span class="highlight">innovation</span> and
+                            <span class="highlight">collaboration</span>. Let's connect and
+                            explore how I can help drive your projects to success!
+                        </p>
+                    </div>
+                    <div
+                        class="col-sm-12 col-md-6 text-center order-1 order-md-2 d-flex align-items-center justify-content-center">
+                        <img src="assets/images/hero1.png" class="img-fluid w-75 py-5" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <router-outlet></router-outlet>
+    </div>
+</div>
+
+<div class="" id="experience"><app-experiences></app-experiences></div>
+<div class="" id="skills"><app-skills></app-skills></div>
+<div class="" id="project"><app-projects></app-projects></div>
+<div class="" id="education"><app-educations></app-educations></div>
+<div class="" id="certificate"><app-certificates></app-certificates></div>
+
+<div class="" id="contact"><app-contactus></app-contactus></div>
+
