@@ -1,7 +1,8 @@
 # **Developer Portfolio**
 ## Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
 # **Demo 🎥**
-![Demo Screenshot](assets/portscreenshot.png)
+![image](https://github.com/user-attachments/assets/23794ae1-9b9d-4893-9402-5850b7d93e4a)
+
 
 
 # View live preview [here](https://mrsohux.github.io/angular-portfolio/).
